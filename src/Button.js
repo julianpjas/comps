@@ -1,5 +1,5 @@
-function Button(){
-    return <button>Hi there!</button>;
+function Button({ children }){
+    return <button>{children}</button>;
 }
 
 // Underlying element is the actual JSX component
